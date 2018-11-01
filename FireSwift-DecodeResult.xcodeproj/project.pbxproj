@@ -7,24 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31620D662109ED7F00085F66 /* FireSwift_Database.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D5C2109ED7F00085F66 /* FireSwift_Database.framework */; };
-		31620D6B2109ED7F00085F66 /* FireSwift-DatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31620D6A2109ED7F00085F66 /* FireSwift-DatabaseTests.swift */; };
-		31620D6D2109ED7F00085F66 /* FireSwift-Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 31620D5F2109ED7F00085F66 /* FireSwift-Database.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31620D782109EE9C00085F66 /* StructureEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31620D772109EE9C00085F66 /* StructureEncoder.swift */; };
-		31620D7A2109EEA200085F66 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31620D792109EEA200085F66 /* Codable.swift */; };
-		31620D7C2109EEF600085F66 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 31620D7B2109EEF600085F66 /* LICENSE.txt */; };
-		31620D7E2109F05700085F66 /* FirebaseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31620D7D2109F05700085F66 /* FirebaseExtensions.swift */; };
-		31620D8A2109F09700085F66 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D802109F09700085F66 /* FirebaseInstanceID.framework */; };
-		31620D8B2109F09700085F66 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D812109F09700085F66 /* FirebaseAnalytics.framework */; };
-		31620D8C2109F09700085F66 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D822109F09700085F66 /* nanopb.framework */; };
-		31620D8D2109F09700085F66 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D832109F09700085F66 /* FirebaseCoreDiagnostics.framework */; };
-		31620D8E2109F09700085F66 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D842109F09700085F66 /* FirebaseNanoPB.framework */; };
-		31620D8F2109F09700085F66 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D852109F09700085F66 /* GoogleToolboxForMac.framework */; };
-		31620D902109F09700085F66 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D862109F09700085F66 /* FirebaseCore.framework */; };
-		31620D912109F09700085F66 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D872109F09700085F66 /* leveldb-library.framework */; };
+		31620D662109ED7F00085F66 /* FireSwift_DecodeResult.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D5C2109ED7F00085F66 /* FireSwift_DecodeResult.framework */; };
+		31620D6B2109ED7F00085F66 /* FireSwift-DecodeResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31620D6A2109ED7F00085F66 /* FireSwift-DecodeResultTests.swift */; };
+		31620D6D2109ED7F00085F66 /* FireSwift-DecodeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 31620D5F2109ED7F00085F66 /* FireSwift-DecodeResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31620D7E2109F05700085F66 /* DecodeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31620D7D2109F05700085F66 /* DecodeResult.swift */; };
 		31620D922109F09700085F66 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D882109F09700085F66 /* Result.framework */; };
-		31620D932109F09700085F66 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D892109F09700085F66 /* FirebaseDatabase.framework */; };
-		31ED48B7210DDAAF00358C11 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED48B6210DDAAF00358C11 /* Paths.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,28 +25,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		31620D5C2109ED7F00085F66 /* FireSwift_Database.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FireSwift_Database.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31620D5F2109ED7F00085F66 /* FireSwift-Database.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FireSwift-Database.h"; sourceTree = "<group>"; };
+		31620D5C2109ED7F00085F66 /* FireSwift_DecodeResult.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FireSwift_DecodeResult.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31620D5F2109ED7F00085F66 /* FireSwift-DecodeResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FireSwift-DecodeResult.h"; sourceTree = "<group>"; };
 		31620D602109ED7F00085F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31620D652109ED7F00085F66 /* FireSwift-DatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FireSwift-DatabaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31620D6A2109ED7F00085F66 /* FireSwift-DatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FireSwift-DatabaseTests.swift"; sourceTree = "<group>"; };
+		31620D652109ED7F00085F66 /* FireSwift-DecodeResultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FireSwift-DecodeResultTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31620D6A2109ED7F00085F66 /* FireSwift-DecodeResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FireSwift-DecodeResultTests.swift"; sourceTree = "<group>"; };
 		31620D6C2109ED7F00085F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31620D772109EE9C00085F66 /* StructureEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructureEncoder.swift; sourceTree = "<group>"; };
-		31620D792109EEA200085F66 /* Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
-		31620D7B2109EEF600085F66 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		31620D7D2109F05700085F66 /* FirebaseExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseExtensions.swift; sourceTree = "<group>"; };
-		31620D802109F09700085F66 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Carthage/Build/iOS/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		31620D812109F09700085F66 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Carthage/Build/iOS/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		31620D822109F09700085F66 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = Carthage/Build/iOS/nanopb.framework; sourceTree = "<group>"; };
-		31620D832109F09700085F66 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Carthage/Build/iOS/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		31620D842109F09700085F66 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Carthage/Build/iOS/FirebaseNanoPB.framework; sourceTree = "<group>"; };
-		31620D852109F09700085F66 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = Carthage/Build/iOS/GoogleToolboxForMac.framework; sourceTree = "<group>"; };
-		31620D862109F09700085F66 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Carthage/Build/iOS/FirebaseCore.framework; sourceTree = "<group>"; };
-		31620D872109F09700085F66 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "leveldb-library.framework"; path = "Carthage/Build/iOS/leveldb-library.framework"; sourceTree = "<group>"; };
+		31620D7D2109F05700085F66 /* DecodeResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeResult.swift; sourceTree = "<group>"; };
 		31620D882109F09700085F66 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
-		31620D892109F09700085F66 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Carthage/Build/iOS/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		3198CE9A215ECD6000640052 /* GeneratePaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratePaths.swift; sourceTree = "<group>"; };
-		31ED48B6210DDAAF00358C11 /* Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paths.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,16 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31620D8A2109F09700085F66 /* FirebaseInstanceID.framework in Frameworks */,
-				31620D8B2109F09700085F66 /* FirebaseAnalytics.framework in Frameworks */,
-				31620D8C2109F09700085F66 /* nanopb.framework in Frameworks */,
-				31620D8D2109F09700085F66 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				31620D8E2109F09700085F66 /* FirebaseNanoPB.framework in Frameworks */,
-				31620D8F2109F09700085F66 /* GoogleToolboxForMac.framework in Frameworks */,
-				31620D902109F09700085F66 /* FirebaseCore.framework in Frameworks */,
-				31620D912109F09700085F66 /* leveldb-library.framework in Frameworks */,
 				31620D922109F09700085F66 /* Result.framework in Frameworks */,
-				31620D932109F09700085F66 /* FirebaseDatabase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31620D662109ED7F00085F66 /* FireSwift_Database.framework in Frameworks */,
+				31620D662109ED7F00085F66 /* FireSwift_DecodeResult.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +58,8 @@
 		31620D522109ED7F00085F66 = {
 			isa = PBXGroup;
 			children = (
-				3198CE9A215ECD6000640052 /* GeneratePaths.swift */,
-				31620D5E2109ED7F00085F66 /* FireSwift-Database */,
-				31620D692109ED7F00085F66 /* FireSwift-DatabaseTests */,
+				31620D5E2109ED7F00085F66 /* FireSwift-DecodeResult */,
+				31620D692109ED7F00085F66 /* FireSwift-DecodeResultTests */,
 				31620D5D2109ED7F00085F66 /* Products */,
 				31620D7F2109F09600085F66 /* Frameworks */,
 			);
@@ -105,55 +68,34 @@
 		31620D5D2109ED7F00085F66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31620D5C2109ED7F00085F66 /* FireSwift_Database.framework */,
-				31620D652109ED7F00085F66 /* FireSwift-DatabaseTests.xctest */,
+				31620D5C2109ED7F00085F66 /* FireSwift_DecodeResult.framework */,
+				31620D652109ED7F00085F66 /* FireSwift-DecodeResultTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		31620D5E2109ED7F00085F66 /* FireSwift-Database */ = {
+		31620D5E2109ED7F00085F66 /* FireSwift-DecodeResult */ = {
 			isa = PBXGroup;
 			children = (
-				31620D762109EDEA00085F66 /* Foundation */,
-				31620D5F2109ED7F00085F66 /* FireSwift-Database.h */,
+				31620D5F2109ED7F00085F66 /* FireSwift-DecodeResult.h */,
 				31620D602109ED7F00085F66 /* Info.plist */,
-				31620D7D2109F05700085F66 /* FirebaseExtensions.swift */,
-				31ED48B6210DDAAF00358C11 /* Paths.swift */,
+				31620D7D2109F05700085F66 /* DecodeResult.swift */,
 			);
-			path = "FireSwift-Database";
+			path = "FireSwift-DecodeResult";
 			sourceTree = "<group>";
 		};
-		31620D692109ED7F00085F66 /* FireSwift-DatabaseTests */ = {
+		31620D692109ED7F00085F66 /* FireSwift-DecodeResultTests */ = {
 			isa = PBXGroup;
 			children = (
-				31620D6A2109ED7F00085F66 /* FireSwift-DatabaseTests.swift */,
+				31620D6A2109ED7F00085F66 /* FireSwift-DecodeResultTests.swift */,
 				31620D6C2109ED7F00085F66 /* Info.plist */,
 			);
-			path = "FireSwift-DatabaseTests";
-			sourceTree = "<group>";
-		};
-		31620D762109EDEA00085F66 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				31620D7B2109EEF600085F66 /* LICENSE.txt */,
-				31620D792109EEA200085F66 /* Codable.swift */,
-				31620D772109EE9C00085F66 /* StructureEncoder.swift */,
-			);
-			path = Foundation;
+			path = "FireSwift-DecodeResultTests";
 			sourceTree = "<group>";
 		};
 		31620D7F2109F09600085F66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				31620D812109F09700085F66 /* FirebaseAnalytics.framework */,
-				31620D862109F09700085F66 /* FirebaseCore.framework */,
-				31620D832109F09700085F66 /* FirebaseCoreDiagnostics.framework */,
-				31620D892109F09700085F66 /* FirebaseDatabase.framework */,
-				31620D802109F09700085F66 /* FirebaseInstanceID.framework */,
-				31620D842109F09700085F66 /* FirebaseNanoPB.framework */,
-				31620D852109F09700085F66 /* GoogleToolboxForMac.framework */,
-				31620D872109F09700085F66 /* leveldb-library.framework */,
-				31620D822109F09700085F66 /* nanopb.framework */,
 				31620D882109F09700085F66 /* Result.framework */,
 			);
 			name = Frameworks;
@@ -166,16 +108,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31620D6D2109ED7F00085F66 /* FireSwift-Database.h in Headers */,
+				31620D6D2109ED7F00085F66 /* FireSwift-DecodeResult.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		31620D5B2109ED7F00085F66 /* FireSwift-Database */ = {
+		31620D5B2109ED7F00085F66 /* FireSwift-DecodeResult */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31620D702109ED7F00085F66 /* Build configuration list for PBXNativeTarget "FireSwift-Database" */;
+			buildConfigurationList = 31620D702109ED7F00085F66 /* Build configuration list for PBXNativeTarget "FireSwift-DecodeResult" */;
 			buildPhases = (
 				31620D572109ED7F00085F66 /* Sources */,
 				31620D582109ED7F00085F66 /* Frameworks */,
@@ -186,14 +128,14 @@
 			);
 			dependencies = (
 			);
-			name = "FireSwift-Database";
+			name = "FireSwift-DecodeResult";
 			productName = SwiftyFirebase;
-			productReference = 31620D5C2109ED7F00085F66 /* FireSwift_Database.framework */;
+			productReference = 31620D5C2109ED7F00085F66 /* FireSwift_DecodeResult.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		31620D642109ED7F00085F66 /* FireSwift-DatabaseTests */ = {
+		31620D642109ED7F00085F66 /* FireSwift-DecodeResultTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31620D732109ED7F00085F66 /* Build configuration list for PBXNativeTarget "FireSwift-DatabaseTests" */;
+			buildConfigurationList = 31620D732109ED7F00085F66 /* Build configuration list for PBXNativeTarget "FireSwift-DecodeResultTests" */;
 			buildPhases = (
 				31620D612109ED7F00085F66 /* Sources */,
 				31620D622109ED7F00085F66 /* Frameworks */,
@@ -204,9 +146,9 @@
 			dependencies = (
 				31620D682109ED7F00085F66 /* PBXTargetDependency */,
 			);
-			name = "FireSwift-DatabaseTests";
+			name = "FireSwift-DecodeResultTests";
 			productName = SwiftyFirebaseTests;
-			productReference = 31620D652109ED7F00085F66 /* FireSwift-DatabaseTests.xctest */;
+			productReference = 31620D652109ED7F00085F66 /* FireSwift-DecodeResultTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 31620D562109ED7F00085F66 /* Build configuration list for PBXProject "FireSwift-Database" */;
+			buildConfigurationList = 31620D562109ED7F00085F66 /* Build configuration list for PBXProject "FireSwift-DecodeResult" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -241,8 +183,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31620D5B2109ED7F00085F66 /* FireSwift-Database */,
-				31620D642109ED7F00085F66 /* FireSwift-DatabaseTests */,
+				31620D5B2109ED7F00085F66 /* FireSwift-DecodeResult */,
+				31620D642109ED7F00085F66 /* FireSwift-DecodeResultTests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,7 +194,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31620D7C2109EEF600085F66 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31620D7A2109EEA200085F66 /* Codable.swift in Sources */,
-				31620D7E2109F05700085F66 /* FirebaseExtensions.swift in Sources */,
-				31ED48B7210DDAAF00358C11 /* Paths.swift in Sources */,
-				31620D782109EE9C00085F66 /* StructureEncoder.swift in Sources */,
+				31620D7E2109F05700085F66 /* DecodeResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31620D6B2109ED7F00085F66 /* FireSwift-DatabaseTests.swift in Sources */,
+				31620D6B2109ED7F00085F66 /* FireSwift-DecodeResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +228,7 @@
 /* Begin PBXTargetDependency section */
 		31620D682109ED7F00085F66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 31620D5B2109ED7F00085F66 /* FireSwift-Database */;
+			target = 31620D5B2109ED7F00085F66 /* FireSwift-DecodeResult */;
 			targetProxy = 31620D672109ED7F00085F66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -431,7 +369,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "FireSwift-Database/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FireSwift-DecodeResult/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -439,7 +377,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.ka-ching.FireSwift-Database";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.ka-ching.FireSwift-DecodeResult";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -463,7 +401,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "FireSwift-Database/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FireSwift-DecodeResult/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,7 +409,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.ka-ching.FireSwift-Database";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.ka-ching.FireSwift-DecodeResult";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -485,13 +423,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUWNN36Z78;
-				INFOPLIST_FILE = "FireSwift-DatabaseTests/Info.plist";
+				INFOPLIST_FILE = "FireSwift-DecodeResultTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.ka-ching.FireSwift-DatabaseTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.ka-ching.FireSwift-DecodeResultTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,13 +442,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUWNN36Z78;
-				INFOPLIST_FILE = "FireSwift-DatabaseTests/Info.plist";
+				INFOPLIST_FILE = "FireSwift-DecodeResultTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.ka-ching.FireSwift-DatabaseTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.ka-ching.FireSwift-DecodeResultTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -520,7 +458,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31620D562109ED7F00085F66 /* Build configuration list for PBXProject "FireSwift-Database" */ = {
+		31620D562109ED7F00085F66 /* Build configuration list for PBXProject "FireSwift-DecodeResult" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31620D6E2109ED7F00085F66 /* Debug */,
@@ -529,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31620D702109ED7F00085F66 /* Build configuration list for PBXNativeTarget "FireSwift-Database" */ = {
+		31620D702109ED7F00085F66 /* Build configuration list for PBXNativeTarget "FireSwift-DecodeResult" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31620D712109ED7F00085F66 /* Debug */,
@@ -538,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31620D732109ED7F00085F66 /* Build configuration list for PBXNativeTarget "FireSwift-DatabaseTests" */ = {
+		31620D732109ED7F00085F66 /* Build configuration list for PBXNativeTarget "FireSwift-DecodeResultTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31620D742109ED7F00085F66 /* Debug */,
