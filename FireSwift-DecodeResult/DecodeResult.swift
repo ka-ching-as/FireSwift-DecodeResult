@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Result
 
 public typealias DecodeResult<T> = Result<T, DecodeError>
 

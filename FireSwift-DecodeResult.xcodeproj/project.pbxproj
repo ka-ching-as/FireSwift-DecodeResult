@@ -11,7 +11,6 @@
 		31620D6B2109ED7F00085F66 /* FireSwift-DecodeResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31620D6A2109ED7F00085F66 /* FireSwift-DecodeResultTests.swift */; };
 		31620D6D2109ED7F00085F66 /* FireSwift-DecodeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 31620D5F2109ED7F00085F66 /* FireSwift-DecodeResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31620D7E2109F05700085F66 /* DecodeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31620D7D2109F05700085F66 /* DecodeResult.swift */; };
-		31620D922109F09700085F66 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31620D882109F09700085F66 /* Result.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31620D922109F09700085F66 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
